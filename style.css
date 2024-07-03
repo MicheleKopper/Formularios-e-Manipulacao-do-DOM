@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.area {
+    position: relative;
+    left: 5%;
+    margin-top: 2%;
+
+}
+
+form {
+    width: 550px;
+}
+
+
+#nome,
+#endereco,
+#cidade,
+#estado {
+    margin-bottom: 8px;
+}
+
+.boxProfissional{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.naturezaCargo{
+    margin-bottom: 20px;
+}
+
+.itensCargo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itensInteresse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.boxFormulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.btn-submit {
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+
+}
+
+.btn-reset {
+    width: 60px;
+    height: 30px;
+}
